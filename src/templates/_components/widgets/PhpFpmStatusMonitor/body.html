@@ -1,0 +1,11 @@
+{% for key, value in fpmStatus %}
+<div class="row" style="display: flex;">
+    <div class="col" style="flex: 2;">
+        <b>{{key}}</b>:
+    </div>
+    <div class="col" style="flex: 1;">
+        {{value}}
+    </div>
+</div>
+
+{% endfor %}

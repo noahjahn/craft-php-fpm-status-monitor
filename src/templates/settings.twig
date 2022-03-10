@@ -1,0 +1,14 @@
+{% from "_includes/forms" import autosuggestField %}
+
+{{ autosuggestField({
+    label: "Path"|t('app'),
+    instructions: "The path to the PHP FPM status endpoint. Ex: fpm-status"|t('app'),
+    id: 'path',
+    class: 'ltr',
+    name: 'path',
+    suggestEnvVars: true,
+    suggestAliases: true,
+    value: settings.path,
+    required: true,
+    placeholder: "fpm-status"|t('app')
+}) }}

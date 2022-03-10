@@ -1,0 +1,37 @@
+{
+    "name": "noahjahn/craft-php-fpm-status-monitor",
+    "description": "Monitor PHP FPM status from within the Craft CMS control panel dashboard",
+    "version": "0.0.1",
+    "type": "craft-plugin",
+    "keywords": ["monitor", "php", "fpm", "status", "control", "panel", "craft", "utility", "dashboard"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noah Jahn",
+            "homepage": "https://noahjahn.dev"
+        }
+    ],
+    "support": {
+        "email": "najahn19@gmail.com",
+        "issues": "https://github.com/noahjahn/craft-php-fpm-status-monitor/issues?state=open",
+        "source": "https://github.com/noahjahn/craft-php-fpm-status-monitor",
+        "docs": "https://github.com/noahjahn/craft-php-fpm-status-monitor/blob/main/README.md"
+    },
+    "require": {
+        "craftcms/cms": "^3.7.35"
+    },
+    "autoload": {
+        "psr-4": {
+            "noahjahn\\phpfpmstatusmonitor\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "PHP FPM Status Monitor",
+        "handle": "php-fpm-status-monitor",
+        "developer": "Noah Jahn",
+        "developerUrl": "https://noahjahn.dev",
+        "documentationUrl": "https://github.com/noahjahn/craft-php-fpm-status-monitor/blob/main/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/noahjahn/craft-php-fpm-status-monitor/main/CHANGELOG.md",
+        "class": "noahjahn\\phpfpmstatusmonitor\\PhpFpmStatusMonitor"
+    }
+}
