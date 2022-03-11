@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1.1] - 2022-03-11
+### Added
+- PHP 8.0 requirement to composer.json
 
-## [0.0.1] - 2022-03-11
+## [0.0.1] - 2022-03-10
 ### Added
 - PHP FPM status service to get information about workers in the FPM pool
 - FPM status monitor widget that display information from the PHP FPM service status information
