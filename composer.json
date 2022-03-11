@@ -1,7 +1,7 @@
 {
     "name": "noahjahn/craft-php-fpm-status-monitor",
     "description": "Monitor PHP FPM status from within the Craft CMS control panel dashboard",
-    "version": "0.0.1",
+    "version": "0.0.1.1",
     "type": "craft-plugin",
     "keywords": ["monitor", "php", "fpm", "status", "control", "panel", "craft", "utility", "dashboard"],
     "license": "MIT",
